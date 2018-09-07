@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="spark-scala:jar2">
+    <output-path>$PROJECT_DIR$/out/artifacts/spark_scala_jar2</output-path>
+    <root id="archive" name="spark-scala.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/spark-scala/src/main/scala/wordCount/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="spark-scala" />
+    </root>
+  </artifact>
+</component>
